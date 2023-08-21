@@ -6,7 +6,7 @@ function App() {
     const [searchTerm, setSearchTerm] = useState('');
     const [countries, setCountries] = useState([]);
 
-
+    //to fetch the country list
     useEffect(() => {
     const fetchCountries = async () => {
       try {
